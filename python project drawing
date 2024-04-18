@@ -1,0 +1,21 @@
+import turtle
+
+# Create a turtle object
+pen = turtle.Turtle()
+
+pen.speed(10)
+
+for i in range(36):
+    pen.forward(100)
+    pen.right(45)
+    pen.forward(100)
+    pen.right(135)
+    pen.forward(100)
+    pen.right(45)
+    pen.forward(100)
+    pen.right(135)
+    pen.right(10)
+
+pen.hideturtle()
+
+turtle.exitonclick()
